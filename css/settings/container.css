@@ -1,0 +1,12 @@
+.container {
+	width: calc(100% - 32px);
+	margin: 0 auto;
+}
+
+@media (min-width: 479px) {
+	
+	.container {
+		width: calc(100% - 100px);
+	}
+
+}

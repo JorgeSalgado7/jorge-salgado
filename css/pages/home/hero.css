@@ -1,0 +1,29 @@
+.sx_home_hero {
+	width: 100%;
+	padding: 160px 0 80px;
+	background-color: var(--black);
+}
+
+.sx_home_hero .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.sx_home_hero__title {
+	margin-bottom: 20px;
+	max-width: 500px;
+	width: 100%;
+	text-align: center;
+}
+
+.sx_home_hero__subtitle {
+	font-size: 20px;
+	color: var(--gray);
+	max-width: 460px;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+	font-weight: 400;
+}

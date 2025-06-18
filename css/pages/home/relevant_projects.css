@@ -1,0 +1,38 @@
+.sx_relevant_projects {
+	width: 100%;
+	height: 100dvh;
+	background-color: var(--black);
+}
+
+.sx_relevant_projects .container {
+	height: 100%;
+	padding-top: 60px;
+	position: relative;
+}
+
+.sx_relevant_projects__picture {
+	width: 100%;
+	height: calc(100% - 90px);
+	border-radius: 40px;
+	display: flex;
+	background-color: red;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 90px;
+}
+
+.sx_relevant_projects__picture--xtm {
+	background-image: url('../../../img/home/XTM\ Inc.png');
+	background-position: start;
+}
+
+.sx_relevant_projects__picture--vidanta {
+	background-image: url('../../../img/home/Vidanta.png');
+	background-position: center;
+}
+
+.sx_relevant_projects__picture--albya{
+	background-image: url('../../../img/home/Albya.png');
+	background-position: start;
+}

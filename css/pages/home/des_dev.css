@@ -1,0 +1,38 @@
+.sx_des_dev {
+	padding-top: 120px;
+	background-color: var(--black);
+}
+
+.sx_des_dev h2 {
+	text-align: center;
+	width: 100%;
+}
+
+.sx_des_dev--grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-top: 60px;
+	gap: 20px;
+}
+
+.sx_des_dev--grid_item {
+	background-image: radial-gradient(farthest-side at top right,
+		#1f1f1f,
+		var(--primary)
+	);
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.sx_des_dev--grid_item img {
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+
+	.sx_des_dev--grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 40px;
+	}
+
+}
