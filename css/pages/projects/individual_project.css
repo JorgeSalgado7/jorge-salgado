@@ -45,10 +45,8 @@
 }
 
 .sx_project__stack--grid_item {
-	background-image: radial-gradient(farthest-side at top right,
-		#1f1f1f,
-		var(--primary)
-	);
+	background: var(--bg-card);
+	border: 1px solid var(--dark);
 	padding: 25px 15px;
 	border-radius: 20px;
 	display: flex;

@@ -1,3 +1,74 @@
 .sx_footer {
-	
+	width: 100%;
+	padding-top: 160px;
+}
+
+.sx_footer__card {
+	padding: 40px 20px;
+	border-radius: 20px;
+	background: var(--bg-card);
+	border: 1px solid var(--dark);
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 40px;
+}
+
+.sx_footer__card__item {
+	display: flex;
+	flex-direction: column;
+}
+
+.sx_footer__card__item small {
+	width: 100%;
+	color: var(--white);
+	font-size: 12px;
+}
+
+.sx_footer__card__item strong {
+	width: 100%;
+	color: var(--gray);
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.sx_footer__card__item ul {
+	width: 100%;
+	list-style: none;
+}
+
+.sx_footer__card__item ul li {
+	width: 100%;
+	display: flex;
+	padding: 16px 20px;
+	border-top: 1px solid var(--gray);
+	border-bottom: 1px solid var(--gray);
+}
+
+.sx_footer__card__item ul li a {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 14px;
+}
+
+.sx_footer__card__item ul li a i {
+	font-size: 20px;
+}
+
+
+@media(min-width: 479px){
+
+	.sx_footer__card {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+}
+
+@media(min-width: 992px) {
+
+	.sx_footer__card {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
 }

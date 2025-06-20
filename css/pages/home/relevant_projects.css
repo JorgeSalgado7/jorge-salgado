@@ -13,7 +13,7 @@
 .sx_relevant_projects__picture {
 	width: 100%;
 	height: calc(100% - 90px);
-	border-radius: 40px;
+	border-radius: 20px;
 	display: flex;
 	background-color: red;
 	background-size: cover;

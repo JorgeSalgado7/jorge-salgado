@@ -1,8 +1,9 @@
 :root {
 	--black: #000000;
 	--primary: #141414;
-	--dark: #2E2E2E;
+	--dark: #1f1f1f;
 	--gray: #A1A1A1;
 	--white: #FFFFFF;
 	--secondary: #FF6D00;
+	--bg-card: radial-gradient(farthest-side at top right, var(--dark), var(--primary));
 }
