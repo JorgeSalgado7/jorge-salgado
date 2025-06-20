@@ -62,7 +62,41 @@
 	color: var(--white);
 }
 
+/* Stack */
+.sx_profile_stack {
+	width: 100%;
+}
 
+.sx_profile_stack--grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 40px;
+}
+
+.sx_profile_stack--grid_item {
+	background: var(--bg-card);
+	border: 1px solid var(--dark);
+	padding: 20px;
+	border-radius: 20px;
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.sx_profile_stack--grid_item strong {
+	color: var(--white);
+	font-size: 22px;
+}
+
+.sx_profile_stack--grid_item ul {
+	list-style: inside;
+	color: var(--white);
+	font-size: 18px;
+	color: var(--gray);
+	font-weight: 400;
+	margin-top: 10px;
+}
 
 @media (min-width: 768px) {
 
@@ -72,6 +106,10 @@
 
 	.sx_profile__description {
 		padding: 40px;
+	}
+
+	.sx_profile_stack--grid {
+		grid-template-columns: repeat(2, 1fr);
 	}
 
 }
@@ -93,12 +131,17 @@
 		grid-column: 5 / 6;
 		grid-row: 1 / 2;
 	}
-	.sx_profile__description strong {
+	.sx_profile__description strong,
+	.sx_profile_stack--grid_item strong {
 		font-size: 28px;
 	}
 
 	.sx_profile__skills--item {
 		padding: 40px;
+	}
+
+	.sx_profile_stack--grid {
+		grid-template-columns: repeat(4, 1fr);
 	}
 
 }
