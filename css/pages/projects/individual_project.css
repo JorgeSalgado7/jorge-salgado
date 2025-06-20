@@ -8,6 +8,10 @@
 	position: relative;
 }
 
+.sx_project__hero--scotia {
+	background-image: url('../../../img/home/Scotiabank.png');
+}
+
 .sx_project__hero--albya {
 	background-image: url('../../../img/home/Albya.png');
 }
@@ -129,7 +133,7 @@
 @media(min-width: 992px) { 
 
 	.sx_project__hero {
-		padding: 36vh 0;
+		padding: 24vh 0;
 	}
 
 	.sx_project__stack--grid {
