@@ -20,6 +20,8 @@
 	border: 1px solid var(--dark);
 	border-radius: 20px;
 	cursor: pointer;
+	overflow: hidden;
+	max-height: 512px;
 }
 
 .sx_des_dev--grid_item img {

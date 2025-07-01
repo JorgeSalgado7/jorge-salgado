@@ -8,21 +8,29 @@
 	position: relative;
 }
 
+.sx_project__hero--iaxtract {
+	background-image: url('../../../img/home/Iaxtract.png');
+}
+
 .sx_project__hero--scotia {
 	background-image: url('../../../img/home/Scotiabank.png');
+}
+
+.sx_project__hero--vidanta {
+	background-image: url('../../../img/home/Vidanta.png');
 }
 
 .sx_project__hero--albya {
 	background-image: url('../../../img/home/Albya.png');
 }
 
-.sx_project__hero--aurio {
+/* .sx_project__hero--aurio {
 	background-image: url('../../../img/home/Aurio.png');
 }
 
 .sx_project__hero--kaloni {
 	background-image: url('../../../img/home/Kaloni.png');
-}
+} */
 
 .sx_project__hero::before {
 	content: '';

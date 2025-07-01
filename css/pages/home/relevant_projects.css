@@ -9,36 +9,31 @@
 
 .sx_relevant_projects__picture {
 	width: 100%;
-	height: 100vh;
 	border-radius: 20px;
-	display: flex;
 	background: var(--bg-card);
-	background-size: cover;
-	background-repeat: no-repeat;
+	display: flex;
 	position: sticky;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+.sx_relevant_projects__picture img {
+	width: 100%;
 }
 
 .sx_relevant_projects__picture--albya {
-	background-image: url('../../../img/home/Albya.png');
-	background-position: top;
 	top: 80px;
 }
 
-.sx_relevant_projects__picture--xtm {
-	background-image: url('../../../img/home/XTM\ Inc.png');
-	background-position: top;
+
+.sx_relevant_projects__picture--vidanta {
 	top: 100px;
 }
 
-.sx_relevant_projects__picture--vidanta {
-	background-image: url('../../../img/home/Vidanta.png');
-	background-position: center;
-	top: 120px;
-}
-
 .sx_relevant_projects__picture--scotia {
-	background-image: url('../../../img/home/Scotiabank.png');
-	background-position: center;
 	top: 120px;
 }
 
+.sx_relevant_projects__picture--iaxtract {
+	top: 140px;
+}
